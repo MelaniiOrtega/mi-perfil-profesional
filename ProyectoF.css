@@ -1,0 +1,161 @@
+
+body{
+    background-color:rgb(252, 252, 252);
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.foto1{
+    display: flex;
+    justify-content: center;
+   margin: 5px;
+} 
+
+.img1{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 100px;
+    max-height: 100px;
+    border: white solid 5px;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.frase{
+    display: flex;
+    justify-content: center;
+}
+
+.barra{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(41, 1, 77) ;
+    color: lightcyan;
+    position: fixed;
+    
+}
+
+#menu{
+    background-color: rgb(41, 1, 77) ;
+}    
+#menu ul{
+ list-style: none;
+ margin: 0px;
+ padding: 10px;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 36px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: #acabec;
+}
+.a{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(41, 1, 77) ;
+    color: seashell;
+
+}
+.edc{
+    display: flex;
+    justify-content: center;
+}
+.cole{
+    width: 50%;
+    border: white solid 5px;
+    padding: 2px;
+    border-radius: 20px;
+}
+.img2{
+    width: 40%;
+    padding: 2px;
+    border-radius: 5px;
+}
+#acerca{
+    padding-top: 5%;
+}
+#estu{
+    padding-top: 5%;
+}
+#habi{
+    padding-top: 5%;
+}
+#port{
+    padding-top: 5%;
+}
+#datos{
+    padding-top: 5%;
+}
+.acercad{
+    display: flex;
+    justify-content: space-around;
+    background-color: #acabec;
+}
+.descAcerca {
+    width: 50%;
+}
+.imgAcerca {
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+.habili{
+    display: flex;
+    justify-content:space-around;
+    background-color: #acabec;
+}
+
+.portafolio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.por{
+    width: 80%;
+    border: white solid 5px;
+    padding: 2px;
+    border-radius: 20px;
+}
+.por2{
+    width: 80%;
+    border: white solid 5px;
+    padding: 2px;
+    border-radius: 20px;
+}
+.por3{
+    width: 40%;
+    border: white solid 5px;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: #acabec;
+}
+.portafolio1{
+    text-align: center;
+    background-color: #acabec;
+}
+.po{
+    background-color: #acabec;
+}
+.datos{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img3{
+    width: 40%;
+    border: white solid 5px;
+    padding: 2px;
+    border-radius: 30%;
+    justify-content: center;
+}
